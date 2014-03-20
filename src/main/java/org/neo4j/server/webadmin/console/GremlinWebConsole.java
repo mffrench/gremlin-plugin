@@ -58,6 +58,7 @@ public class GremlinWebConsole
 
     public void execute( String script )
     {
+        System.err.println("Script : " + script);
         groovy.execute( script );
     }
 }
